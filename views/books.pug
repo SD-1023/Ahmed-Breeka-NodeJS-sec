@@ -1,0 +1,15 @@
+html
+    head 
+        title Books
+    body 
+        h1 All Books in library 
+        table 
+            thead
+                tr 
+                td ID 
+                td Name 
+            tbody 
+            each book in books 
+                tr 
+                    td #{book.id}
+                    td #{book.name}
